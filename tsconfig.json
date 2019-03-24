@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES5",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "lib": ["dom", "es2015"],
+    "sourceRoot": "src",
+    "outDir": "dist",
+    "types": [
+      "node"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "scripts",
+    "test"
+  ]
+}
